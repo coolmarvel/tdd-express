@@ -5,12 +5,14 @@
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
+    "start:dev": "nodemon server.js",
     "test": "jest --runInBand --detectOpenHandles"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mongoose": "^8.0.4"
+    "mongoose": "^8.0.4",
+    "nodemon": "^3.0.2"
   },
   "devDependencies": {
     "jest": "^29.7.0",
