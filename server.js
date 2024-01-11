@@ -24,5 +24,7 @@ app.use((err, req, res, next) => {
   res.status(500).send({ message: error.message });
 });
 
-app.listen(port);
-console.log(`Running on port ${port}`);
+// app.listen(port);
+// console.log(`Running on port ${port}`);
+
+module.exports = app;
